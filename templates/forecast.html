@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Price Forecast</title>
+<script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+</head>
+<body>
+<h1>Stock Price Forecast</h1>
+<div id="graph-div"></div>
+<script>
+// Get plotly graph div from variable
+var graphDiv = '{{ graph_div }}';
+
+// Add plotly graph to div
+Plotly.newPlot('graph-div', graphDiv);
+</script>
+</body>
+</html>
+
